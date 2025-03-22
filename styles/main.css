@@ -44,28 +44,35 @@ section[id] {
 /* Responsive design */
 @media screen and (max-width: 768px) {
     :root {
-        --header-height: 180px;
+        --header-height: 140px;
     }
 
     .site-header {
-        padding: 1rem;
+        padding: 0.75rem;
     }
 
     .logo {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .logo img {
-        height: 90px;
+        height: 70px;
+    }
+
+    .main-navigation {
+        width: 100%;
     }
 
     .main-navigation ul {
-        flex-wrap: wrap;
-        gap: 1rem;
+        flex-wrap: nowrap;
+        gap: 0.75rem;
+        justify-content: space-between;
+        padding: 0 0.5rem;
     }
 
     .main-navigation a {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
+        white-space: nowrap;
     }
 }
 
