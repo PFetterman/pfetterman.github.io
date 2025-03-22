@@ -99,15 +99,15 @@
 
 /* Individual image adjustments if needed */
 [alt="Jiorjio Fetterman"].team-member-image {
-    object-position: center 15%;
+    object-position: 30% 15%;
 }
 
 [alt="Adam Goldman"].team-member-image {
-    object-position: center 10%;
+    object-position: 30% 10%;
 }
 
 [alt="Perry Fetterman"].team-member-image {
-    object-position: center 15%;
+    object-position: 40% 15%;
 }
 
 [alt="Chloe Huynh"].team-member-image {
